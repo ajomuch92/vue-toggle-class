@@ -32,6 +32,7 @@ export default {
   methods: {
     toggleObjs() {
       this.obj2 = Object.assign({}, this.obj1);
+      alert('Config object changed');
     }
   }
 }
