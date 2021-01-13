@@ -1,8 +1,5 @@
 # vue-class-toggle
-## A vue.js directive that helps to add, remove or toggle class on HTML elements based on other actios
-
-
-vue-sticky-scroll keeps an eye on your element and whenever content is added inside of it, it scrolls down so that the viewer can remain focused on the newest content!  
+## A vue.js directive that helps to add, remove or toggle class on HTML elements based on events 
 
 
 ### install  
@@ -15,7 +12,7 @@ Require it in your main.js file:
 
 ```javascript
 // ES5
-var stickyScroll = require('vue-class-toggle');
+var vueToggleClass = require('vue-class-toggle');
 // ES6
 import 'vue-class-toggle';
 ```
