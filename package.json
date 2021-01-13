@@ -1,6 +1,6 @@
 {
   "name": "vue-class-toggle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package for Vue JS to toggle easylly class on html elements",
   "main": "index.js",
   "scripts": {
