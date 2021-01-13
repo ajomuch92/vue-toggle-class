@@ -2,7 +2,7 @@
 ## A vue.js directive that helps to add, remove or toggle class on HTML elements based on events 
 
 
-### install  
+### Install  
 
 NPM:  
 ```bash
