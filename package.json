@@ -1,0 +1,24 @@
+{
+  "name": "vue-class-toggle",
+  "version": "1.0.0",
+  "description": "A package for Vue JS to toggle easylly class on html elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajomuch92/vue-toggle-class.git"
+  },
+  "keywords": [
+    "vuejs",
+    "class",
+    "toggle"
+  ],
+  "author": "Aarón Montes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajomuch92/vue-toggle-class/issues"
+  },
+  "homepage": "https://github.com/ajomuch92/vue-toggle-class#readme"
+}
