@@ -11,8 +11,6 @@ npm i --save vue-class-toggle
 Require it in your main.js file:
 
 ```javascript
-// ES5
-var vueToggleClass = require('vue-class-toggle');
 // ES6
 import 'vue-class-toggle';
 ```

@@ -1,5 +1,3 @@
 import {vueClassToggle} from './src/directive';
 
-(function() {
-  export default vueClassToggle;
-})();
+export default vueClassToggle;
