@@ -1,28 +1,62 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="main-container">
+      <button v-class-toggle="obj2" id="my-button" class="mb">Button</button>
+      <button id="my-button2" class="mb">Button 2</button>
+      <button class="mb" @click="toggleObjs">Button3</button>
+      <div id="my-div" class="my-style">
+        Div 
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data: () => ({
+    obj1 : {
+      if: 'click',
+      on: '#my-button2',
+      do: 'toggle my-style',
+      to: '#my-div'
+    },
+    obj2 : {
+      if: 'click',
+      on: '#my-button',
+      do: 'toggle mb',
+      to: 'button'
+    },
+  }),
+  methods: {
+    toggleObjs() {
+      this.obj2 = Object.assign({}, this.obj1);
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .main-container {
+    padding: 20px;
+    background-color: aquamarine;
+    height: 100px;
+  }
+
+  .mb {
+    margin-bottom: 5px;
+  }
+
+  .my-style {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+  }
+
+  .red-style {
+    background-color: red;
+  }
 </style>
